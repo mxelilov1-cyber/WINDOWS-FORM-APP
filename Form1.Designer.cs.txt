@@ -1,0 +1,430 @@
+using System.Drawing;
+using System.Windows.Forms;
+
+namespace WindowsFormsApp5
+{
+    partial class Form1
+    {
+        /// <summary>
+        ///  Required designer variable.
+        /// </summary>
+        private System.ComponentModel.IContainer components = null;
+
+        /// <summary>
+        ///  Clean up any resources being used.
+        /// </summary>
+        /// <param name="disposing">true if managed resources should be disposed; otherwise, false.</param>
+        protected override void Dispose(bool disposing)
+        {
+            if (disposing && (components != null))
+            {
+                components.Dispose();
+            }
+            base.Dispose(disposing);
+        }
+
+        #region Windows Form Designer generated code
+
+        /// <summary>
+        ///  Required method for Designer support - do not modify
+        ///  the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.buttonYukle = new System.Windows.Forms.Button();
+            this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.groupBox2 = new System.Windows.Forms.GroupBox();
+            this.dateTimePicker3 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker2 = new System.Windows.Forms.DateTimePicker();
+            this.dateTimePicker1 = new System.Windows.Forms.DateTimePicker();
+            this.comboBox1 = new System.Windows.Forms.ComboBox();
+            this.textBoxVerenOrqan = new System.Windows.Forms.TextBox();
+            this.textBoxAileVeziyyeti = new System.Windows.Forms.TextBox();
+            this.textBoxDogumYeri = new System.Windows.Forms.TextBox();
+            this.textBoxAtaAdi = new System.Windows.Forms.TextBox();
+            this.textBoxAd = new System.Windows.Forms.TextBox();
+            this.label12 = new System.Windows.Forms.Label();
+            this.label11 = new System.Windows.Forms.Label();
+            this.textBoxSoyad = new System.Windows.Forms.TextBox();
+            this.textBoxFin = new System.Windows.Forms.TextBox();
+            this.label10 = new System.Windows.Forms.Label();
+            this.label9 = new System.Windows.Forms.Label();
+            this.label8 = new System.Windows.Forms.Label();
+            this.label7 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
+            this.textBoxSeriya = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.label1 = new System.Windows.Forms.Label();
+            this.buttonTemizle = new System.Windows.Forms.Button();
+            this.buttonYaddaSaxla = new System.Windows.Forms.Button();
+            this.groupBox1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            this.groupBox2.SuspendLayout();
+            this.SuspendLayout();
+            // 
+            // groupBox1
+            // 
+            this.groupBox1.Controls.Add(this.buttonYukle);
+            this.groupBox1.Controls.Add(this.pictureBox1);
+            this.groupBox1.Location = new System.Drawing.Point(9, 19);
+            this.groupBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Name = "groupBox1";
+            this.groupBox1.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox1.Size = new System.Drawing.Size(358, 313);
+            this.groupBox1.TabIndex = 0;
+            this.groupBox1.TabStop = false;
+            this.groupBox1.Text = "Şəxsiyyət vəsiqəsi";
+            // 
+            // buttonYukle
+            // 
+            this.buttonYukle.Location = new System.Drawing.Point(126, 245);
+            this.buttonYukle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonYukle.Name = "buttonYukle";
+            this.buttonYukle.Size = new System.Drawing.Size(97, 38);
+            this.buttonYukle.TabIndex = 1;
+            this.buttonYukle.Text = "Şəkil yüklə...";
+            this.buttonYukle.UseVisualStyleBackColor = true;
+            this.buttonYukle.Click += new System.EventHandler(this.buttonYukle_Click);
+            // 
+            // pictureBox1
+            // 
+            this.pictureBox1.Location = new System.Drawing.Point(11, 27);
+            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.pictureBox1.Name = "pictureBox1";
+            this.pictureBox1.Size = new System.Drawing.Size(334, 190);
+            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
+            this.pictureBox1.TabIndex = 0;
+            this.pictureBox1.TabStop = false;
+            // 
+            // groupBox2
+            // 
+            this.groupBox2.Controls.Add(this.dateTimePicker3);
+            this.groupBox2.Controls.Add(this.dateTimePicker2);
+            this.groupBox2.Controls.Add(this.dateTimePicker1);
+            this.groupBox2.Controls.Add(this.comboBox1);
+            this.groupBox2.Controls.Add(this.textBoxVerenOrqan);
+            this.groupBox2.Controls.Add(this.textBoxAileVeziyyeti);
+            this.groupBox2.Controls.Add(this.textBoxDogumYeri);
+            this.groupBox2.Controls.Add(this.textBoxAtaAdi);
+            this.groupBox2.Controls.Add(this.textBoxAd);
+            this.groupBox2.Controls.Add(this.label12);
+            this.groupBox2.Controls.Add(this.label11);
+            this.groupBox2.Controls.Add(this.textBoxSoyad);
+            this.groupBox2.Controls.Add(this.textBoxFin);
+            this.groupBox2.Controls.Add(this.label10);
+            this.groupBox2.Controls.Add(this.label9);
+            this.groupBox2.Controls.Add(this.label8);
+            this.groupBox2.Controls.Add(this.label7);
+            this.groupBox2.Controls.Add(this.label6);
+            this.groupBox2.Controls.Add(this.label5);
+            this.groupBox2.Controls.Add(this.label4);
+            this.groupBox2.Controls.Add(this.label3);
+            this.groupBox2.Controls.Add(this.textBoxSeriya);
+            this.groupBox2.Controls.Add(this.label2);
+            this.groupBox2.Controls.Add(this.label1);
+            this.groupBox2.Location = new System.Drawing.Point(380, 19);
+            this.groupBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Name = "groupBox2";
+            this.groupBox2.Padding = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.groupBox2.Size = new System.Drawing.Size(356, 313);
+            this.groupBox2.TabIndex = 1;
+            this.groupBox2.TabStop = false;
+            this.groupBox2.Text = "Vəsiqə Məlumatları";
+            // 
+            // dateTimePicker3
+            // 
+            this.dateTimePicker3.Location = new System.Drawing.Point(122, 270);
+            this.dateTimePicker3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker3.Name = "dateTimePicker3";
+            this.dateTimePicker3.Size = new System.Drawing.Size(95, 20);
+            this.dateTimePicker3.TabIndex = 26;
+            // 
+            // dateTimePicker2
+            // 
+            this.dateTimePicker2.Location = new System.Drawing.Point(122, 245);
+            this.dateTimePicker2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker2.Name = "dateTimePicker2";
+            this.dateTimePicker2.Size = new System.Drawing.Size(95, 20);
+            this.dateTimePicker2.TabIndex = 25;
+            // 
+            // dateTimePicker1
+            // 
+            this.dateTimePicker1.Location = new System.Drawing.Point(122, 176);
+            this.dateTimePicker1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.dateTimePicker1.Name = "dateTimePicker1";
+            this.dateTimePicker1.Size = new System.Drawing.Size(95, 20);
+            this.dateTimePicker1.TabIndex = 24;
+            // 
+            // comboBox1
+            // 
+            this.comboBox1.FormattingEnabled = true;
+            this.comboBox1.Location = new System.Drawing.Point(122, 150);
+            this.comboBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.comboBox1.Name = "comboBox1";
+            this.comboBox1.Size = new System.Drawing.Size(95, 21);
+            this.comboBox1.TabIndex = 2;
+            // 
+            // textBoxVerenOrqan
+            // 
+            this.textBoxVerenOrqan.Location = new System.Drawing.Point(122, 291);
+            this.textBoxVerenOrqan.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxVerenOrqan.Name = "textBoxVerenOrqan";
+            this.textBoxVerenOrqan.Size = new System.Drawing.Size(95, 20);
+            this.textBoxVerenOrqan.TabIndex = 23;
+            // 
+            // textBoxAileVeziyyeti
+            // 
+            this.textBoxAileVeziyyeti.Location = new System.Drawing.Point(122, 223);
+            this.textBoxAileVeziyyeti.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxAileVeziyyeti.Name = "textBoxAileVeziyyeti";
+            this.textBoxAileVeziyyeti.Size = new System.Drawing.Size(95, 20);
+            this.textBoxAileVeziyyeti.TabIndex = 20;
+            // 
+            // textBoxDogumYeri
+            // 
+            this.textBoxDogumYeri.Location = new System.Drawing.Point(122, 199);
+            this.textBoxDogumYeri.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxDogumYeri.Name = "textBoxDogumYeri";
+            this.textBoxDogumYeri.Size = new System.Drawing.Size(95, 20);
+            this.textBoxDogumYeri.TabIndex = 19;
+            // 
+            // textBoxAtaAdi
+            // 
+            this.textBoxAtaAdi.Location = new System.Drawing.Point(122, 127);
+            this.textBoxAtaAdi.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxAtaAdi.Name = "textBoxAtaAdi";
+            this.textBoxAtaAdi.Size = new System.Drawing.Size(95, 20);
+            this.textBoxAtaAdi.TabIndex = 16;
+            // 
+            // textBoxAd
+            // 
+            this.textBoxAd.Location = new System.Drawing.Point(122, 102);
+            this.textBoxAd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxAd.Name = "textBoxAd";
+            this.textBoxAd.Size = new System.Drawing.Size(95, 20);
+            this.textBoxAd.TabIndex = 15;
+            // 
+            // label12
+            // 
+            this.label12.AutoSize = true;
+            this.label12.Location = new System.Drawing.Point(7, 291);
+            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label12.Name = "label12";
+            this.label12.Size = new System.Drawing.Size(68, 13);
+            this.label12.TabIndex = 14;
+            this.label12.Text = "Verən orqan:";
+            // 
+            // label11
+            // 
+            this.label11.AutoSize = true;
+            this.label11.Location = new System.Drawing.Point(7, 270);
+            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label11.Name = "label11";
+            this.label11.Size = new System.Drawing.Size(52, 13);
+            this.label11.TabIndex = 13;
+            this.label11.Text = "Etibarlıdır:";
+            // 
+            // textBoxSoyad
+            // 
+            this.textBoxSoyad.Location = new System.Drawing.Point(122, 77);
+            this.textBoxSoyad.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxSoyad.Name = "textBoxSoyad";
+            this.textBoxSoyad.Size = new System.Drawing.Size(95, 20);
+            this.textBoxSoyad.TabIndex = 12;
+            // 
+            // textBoxFin
+            // 
+            this.textBoxFin.Location = new System.Drawing.Point(122, 49);
+            this.textBoxFin.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxFin.Name = "textBoxFin";
+            this.textBoxFin.Size = new System.Drawing.Size(95, 20);
+            this.textBoxFin.TabIndex = 11;
+            // 
+            // label10
+            // 
+            this.label10.AutoSize = true;
+            this.label10.Location = new System.Drawing.Point(7, 245);
+            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label10.Name = "label10";
+            this.label10.Size = new System.Drawing.Size(68, 13);
+            this.label10.TabIndex = 10;
+            this.label10.Text = "Verilmə tarixi:";
+            // 
+            // label9
+            // 
+            this.label9.AutoSize = true;
+            this.label9.Location = new System.Drawing.Point(7, 223);
+            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label9.Name = "label9";
+            this.label9.Size = new System.Drawing.Size(70, 13);
+            this.label9.TabIndex = 9;
+            this.label9.Text = "Ailə vəziyyəti:";
+            // 
+            // label8
+            // 
+            this.label8.AutoSize = true;
+            this.label8.Location = new System.Drawing.Point(7, 199);
+            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label8.Name = "label8";
+            this.label8.Size = new System.Drawing.Size(63, 13);
+            this.label8.TabIndex = 8;
+            this.label8.Text = "Doğum yeri:";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(7, 176);
+            this.label7.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(68, 13);
+            this.label7.TabIndex = 7;
+            this.label7.Text = "Doğum tarixi:";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(5, 150);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(30, 13);
+            this.label6.TabIndex = 6;
+            this.label6.Text = "Cins:";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(5, 127);
+            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(43, 13);
+            this.label5.TabIndex = 5;
+            this.label5.Text = "Ata adı:";
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(7, 102);
+            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(23, 13);
+            this.label4.TabIndex = 4;
+            this.label4.Text = "Ad:";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(7, 77);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(40, 13);
+            this.label3.TabIndex = 3;
+            this.label3.Text = "Soyad:";
+            // 
+            // textBoxSeriya
+            // 
+            this.textBoxSeriya.Location = new System.Drawing.Point(122, 25);
+            this.textBoxSeriya.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.textBoxSeriya.Name = "textBoxSeriya";
+            this.textBoxSeriya.Size = new System.Drawing.Size(95, 20);
+            this.textBoxSeriya.TabIndex = 2;
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(5, 49);
+            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(48, 13);
+            this.label2.TabIndex = 1;
+            this.label2.Text = "FİN kod:";
+            // 
+            // label1
+            // 
+            this.label1.AutoSize = true;
+            this.label1.Location = new System.Drawing.Point(4, 27);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.label1.Name = "label1";
+            this.label1.Size = new System.Drawing.Size(86, 13);
+            this.label1.TabIndex = 0;
+            this.label1.Text = "Seriya və nömrə:";
+            // 
+            // buttonTemizle
+            // 
+            this.buttonTemizle.Location = new System.Drawing.Point(442, 345);
+            this.buttonTemizle.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonTemizle.Name = "buttonTemizle";
+            this.buttonTemizle.Size = new System.Drawing.Size(70, 19);
+            this.buttonTemizle.TabIndex = 2;
+            this.buttonTemizle.Text = "Təmizlə";
+            this.buttonTemizle.UseVisualStyleBackColor = true;
+            this.buttonTemizle.Click += new System.EventHandler(this.buttonTemizle_Click);
+            // 
+            // buttonYaddaSaxla
+            // 
+            this.buttonYaddaSaxla.Location = new System.Drawing.Point(558, 345);
+            this.buttonYaddaSaxla.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.buttonYaddaSaxla.Name = "buttonYaddaSaxla";
+            this.buttonYaddaSaxla.Size = new System.Drawing.Size(70, 19);
+            this.buttonYaddaSaxla.TabIndex = 3;
+            this.buttonYaddaSaxla.Text = "Yadda saxla";
+            this.buttonYaddaSaxla.UseVisualStyleBackColor = true;
+            this.buttonYaddaSaxla.Click += new System.EventHandler(this.buttonYaddaSaxla_Click);
+            // 
+            // Form1
+            // 
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.ClientSize = new System.Drawing.Size(770, 372);
+            this.Controls.Add(this.buttonYaddaSaxla);
+            this.Controls.Add(this.buttonTemizle);
+            this.Controls.Add(this.groupBox2);
+            this.Controls.Add(this.groupBox1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Name = "Form1";
+            this.Text = "Azərbaycan Şəxsiyyət Vəsiqəsi";
+            this.groupBox1.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            this.groupBox2.ResumeLayout(false);
+            this.groupBox2.PerformLayout();
+            this.ResumeLayout(false);
+
+        }
+
+        #endregion
+
+        private GroupBox groupBox1;
+        private PictureBox pictureBox1;
+        private Button buttonYukle;
+        private GroupBox groupBox2;
+        private TextBox textBoxSeriya;
+        private Label label2;
+        private Label label1;
+        private Label label8;
+        private Label label7;
+        private Label label6;
+        private Label label5;
+        private Label label4;
+        private Label label3;
+        private Label label9;
+        private TextBox textBoxSoyad;
+        private TextBox textBoxFin;
+        private Label label10;
+        private Label label11;
+        private Label label12;
+        private TextBox textBoxVerenOrqan;
+        private TextBox textBoxAileVeziyyeti;
+        private TextBox textBoxDogumYeri;
+        private TextBox textBoxAtaAdi;
+        private TextBox textBoxAd;
+        private Button buttonTemizle;
+        private Button buttonYaddaSaxla;
+        private DateTimePicker dateTimePicker3;
+        private DateTimePicker dateTimePicker2;
+        private DateTimePicker dateTimePicker1;
+        private ComboBox comboBox1;
+    }
+}
